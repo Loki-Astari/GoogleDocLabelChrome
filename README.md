@@ -9,6 +9,8 @@ Adds a Labels section to the Google Docs left sidebar for organizing and categor
 - Expand labels to see all documents with that label
 - Export/import labels to share with other users
 - Labels persist in localStorage per document
+- Google Drive: Adds a "Labels" item under "Starred"
+- Google Drive: Overlay groups labels into categories and lets you drag labels between categories
 - Auto-reload when switching tabs/windows
 
 ## Installation
@@ -18,7 +20,7 @@ Adds a Labels section to the Google Docs left sidebar for organizing and categor
 1. Open Chrome and navigate to `chrome://extensions/`
 2. Enable **Developer mode** (toggle in the top right)
 3. Click **Load unpacked**
-4. Select the `chrome-extension` folder
+4. Select the `GoogleDocLabelChrome` folder
 5. The extension is now installed and active
 
 ### Usage
