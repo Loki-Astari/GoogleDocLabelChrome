@@ -549,7 +549,7 @@
             labelContainer.appendChild(labelItem);
 
             const docListContainer = document.createElement('div');
-            docListContainer.style.cssText = 'padding-left: 32px; display: ' + (isExpanded ? 'block' : 'none') + ';';
+            docListContainer.style.cssText = 'padding-left: 32px; display: ' + (isExpanded ? 'block' : 'none') + '; max-height: 200px; overflow-y: auto;';
             labelContainer.appendChild(docListContainer);
 
             if (isExpanded) populateDocumentList(docListContainer, label);
