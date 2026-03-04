@@ -637,7 +637,7 @@
         labelsSection.id = 'gd-labels-section';
 
         const computedStyle = window.getComputedStyle(documentTabsSection);
-        labelsSection.style.cssText = `margin-bottom: ${computedStyle.marginBottom}; padding: ${computedStyle.padding};`;
+        labelsSection.style.cssText = `margin-bottom: ${computedStyle.marginBottom}; padding: ${computedStyle.padding}; background: #fff;`;
 
         const headerRow = document.createElement('div');
         headerRow.style.cssText = 'display: flex; align-items: center; justify-content: space-between; padding: 8px 16px;';
